@@ -1,0 +1,23 @@
+#cashier {
+    height: 200px;
+}
+
+.Pic { border-radius: 100%;
+    animation: rotation 5s infinite linear;
+  } 
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  button {
+    font-size: 40px
+  }
